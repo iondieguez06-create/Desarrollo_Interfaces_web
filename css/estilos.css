@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(182, 200, 220);
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( red,white, rgb(31, 132, 6));
+}
+.contenedor{
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-style: ridge;
+    box-shadow: 2px 2px 5px white;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+    
+.nombre{
+    padding-bottom: 20px;
+
+}
+
+button{
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+button:hover{
+        background-color: rgb(15, 112, 107);
+}
